@@ -1,0 +1,28 @@
+name: shared_library
+description: "Shared models and utilities used across sdk-core packages."
+version: 0.0.1
+publish_to: 'none'
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  device_info_plus: ^10.1.2
+  android_id: ^0.4.0        # optional
+  uuid: ^4.3.3
+  shared_preferences: ^2.5.5
+  retrofit: ^4.9.2 #^3.0.1+1
+  logger: ^1.0.0
+  dio: ^5.9.2
+  pretty_dio_logger: ^1.4.0
+  chucker_flutter: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.8
+  retrofit_generator: ^10.2.5
+  mockito: ^5.3.0
