@@ -45,6 +45,15 @@ dependencies:
   local_auth_android: ^2.0.0
   local_auth_darwin: ^2.0.0
 
+  authentication_sdk:
+    path: sdk-core/authentication_sdk
+  identity_sdk:
+    path: sdk-core/identity_sdk
+  transaction_sdk:
+    path: sdk-core/transaction_sdk
+  shared_library:
+    path: sdk-core/shared_library
+
 dev_dependencies:
   flutter_flavorizr: ^2.4.2
   flutter_native_splash: ^2.4.1
